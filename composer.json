@@ -1,6 +1,6 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
+	"name": "maddhatter/implementing-laravel",
+	"description": "Working thru the Implementing laravel book.",
 	"keywords": ["framework", "laravel"],
 	"license": "MIT",
 	"require": {
@@ -14,7 +14,10 @@
 			"app/database/migrations",
 			"app/database/seeds",
 			"app/tests/TestCase.php"
-		]
+		],
+		"psr-0": {
+			"Impl": "app"
+		}
 	},
 	"scripts": {
 		"post-install-cmd": [
